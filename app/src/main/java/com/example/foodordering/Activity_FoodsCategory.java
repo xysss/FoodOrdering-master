@@ -133,7 +133,7 @@ public class Activity_FoodsCategory extends BaseActivity {
 
     private void initView() {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        toolbar.setTitle("我的专属菜馆");
+        toolbar.setTitle("城院菜馆");
         TextView toolbarText = (TextView) findViewById(R.id.toolbar_text);
         toolbarText.setVisibility(View.GONE);
         setSupportActionBar(toolbar);

@@ -50,7 +50,7 @@ public class Activity_VideoSurveillance extends BaseActivity {
             mediacontroller.setAnchorView(videoViewVideo);
             videoViewVideo.setMediaController(mediacontroller);
             //视频来源
-            videoViewVideo.setVideoURI(Uri.parse("http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"));
+            videoViewVideo.setVideoURI(Uri.parse("· "));
         } catch (Exception e) {
             e.printStackTrace();
             pg.dismiss();

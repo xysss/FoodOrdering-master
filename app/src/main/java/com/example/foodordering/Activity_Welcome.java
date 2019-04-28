@@ -46,7 +46,7 @@ public class Activity_Welcome extends BaseActivity {
         setContentView(R.layout.activity_welcome);
         application = (FoodOrderingApplication) getApplication();
         TextView versionNumber = (TextView) findViewById(R.id.versionNumber);
-        versionNumber.setText("我的专属外卖  " + getLocalVersionName(Activity_Welcome.this));
+        versionNumber.setText("城院外卖  " + getLocalVersionName(Activity_Welcome.this));
         application.versionName = getLocalVersionName(Activity_Welcome.this);
         init();
     }
