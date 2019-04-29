@@ -26,7 +26,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Activity_Address extends BaseActivity implements View.OnClickListener {
-    private String userId, address, name, email, nickname, sex, avatar, phoneNumber;//头像
+    private String userId, address, name, email, nickname, sex, avatar, phoneNumber;  //头像
     private LinearLayout ly_AddAddress;
     private User user;
     private RecyclerView recyclerView_address;

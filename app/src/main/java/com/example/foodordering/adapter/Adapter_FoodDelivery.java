@@ -54,7 +54,7 @@ public class Adapter_FoodDelivery extends RecyclerView.Adapter<Adapter_FoodDeliv
     //----------------以下都是百度坐标系的坐标------------------//
     private double LATITUDE_QIDIAN;  //起点纬度
     private double LONGTITUDE_QIDIAN;  //起点经度
-    private String ADDRESS_QIDIAN = "昆明市盘龙区北京路492号";//起点名称
+    private String ADDRESS_QIDIAN = "大连市开发区铁山西路路31号";//起点名称
 
     private double LATITUDE_ZHONGDIAN = 25.044516;  //终点纬度
     private double LONGTITUDE_ZHONGDIAN = 102.726253;  //终点经度
