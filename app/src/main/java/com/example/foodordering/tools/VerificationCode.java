@@ -130,7 +130,7 @@ public class VerificationCode {
 			DrawLines(canvas, paint);
 		}
 		}
-		canvas.save(Canvas.ALL_SAVE_FLAG);// 保存
+		canvas.save();// 保存
 		canvas.restore();
 		return bitmap;
 	}
